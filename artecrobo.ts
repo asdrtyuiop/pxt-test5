@@ -1,14 +1,14 @@
 /**
  * Types of DC motor control
  */
-enum DCmotion {
+enum LEDSensorSmotion {
 	//% block="On"
 	On,
 	//% block="Off"
 	Off
 }
 
-enum connectorDCMotor {
+enum connectorLEDSensor {
 	//% block="P0"
 	P0,
 	//% block="P1"
@@ -31,15 +31,15 @@ namespace artecrobo {
 	// Move DC motor
 	//% blockId=artec_move_dc_motor
 	//% block="LED %_connector| : %_motion"
-	export function moveDCMotor(_connector: connectorDCMotor, _motion: DCmotion): void {
+	export function LEDSensor(_connector: connectorLEDSensor, _motion: LEDSensormotion): void {
 		switch(_motion) {
-			case DCmotion.On:
+			case LEDSensormotion.On:
 				
 				pins.digitalWritePin(DigitalPin._connector, 1);
 
 				
 				break;
-			case DCmotion.Off:
+			case LEDSensormotion.Off:
 				
 				pins.digitalWritePin(DigitalPin._connector, 0);
 				break;

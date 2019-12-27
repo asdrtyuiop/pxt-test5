@@ -1,7 +1,7 @@
 {
-  "DCmotion.On|block": "On"
-  ,"DCmotion.Off|block": "Off"
-  ,"connectorDCMotor.P0|block": "P0"
-  ,"connectorDCMotor.P1|block": "P1"
-  ,"connectorDCMotor.P2|block": "P2"
+  "LEDSensormotion.On|block": "On"
+  ,"LEDSensormotion.Off|block": "Off"
+  ,"connectorLEDSensor.P0|block": "P0"
+  ,"connectorLEDSensor.P1|block": "P1"
+  ,"connectorLEDSensor.P2|block": "P2"
 }
